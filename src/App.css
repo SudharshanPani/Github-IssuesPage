@@ -1,0 +1,34 @@
+.github{
+  text-align: center;
+}
+
+.issues{
+  padding:10px;
+  margin-left:80px;
+  border:1px solid grey;
+  background-color: lightgrey;
+  width: 80%;
+}
+
+.containerClassName{
+height: 40px;
+list-style: none;
+display: flex;
+justify-content: center;
+
+}
+.containerClassName a{
+  padding: 10px;
+  margin: 8px;
+  color: gray;
+  border-radius: 5px;
+  outline: none;
+}
+.containerClassName a:hover{
+  border: 1px solid gainsboro;
+  cursor: pointer;
+}
+.activeClassName a{
+  color: white;
+  background-color: blue;
+}
